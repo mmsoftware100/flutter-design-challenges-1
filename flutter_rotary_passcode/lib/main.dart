@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:google_fonts/google_fonts.dart';
+//import 'package:google_fonts/google_fonts.dart';
 
 import 'passcode_input_view.dart';
 
@@ -19,7 +19,7 @@ class _App extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Rotary Passcode',
       theme: Theme.of(context).copyWith(
-        textTheme: GoogleFonts.kanitTextTheme(),
+        // textTheme: GoogleFonts.kanitTextTheme(),
       ),
       home: PasscodeInputView(
         expectedCode: '6942',
